@@ -23,15 +23,16 @@ Ciclopes combines prior biological knowledge of cell cycle marker genes with a d
   The inferred latent variable corresponds to the progression through the cell cycle.
 
 ## Model Architecture
-    Input: gene expression
-            │
-    Encoder: neural network
-            |
-    Circular latent variable (θ)
-            │
-    Decoder: Fourier series model
-            │
-    Reconstructed gene expression
+<p align="center">
+<img src="images/ciclopes_schematic.png" width="375"/>
+</p>
+
+**Input**  
+  Gene expression (Sanity LTQs recommended) of genes exhibiting an oscillatory dynamics, $G$-dimensional vector  
+**Latent space**  
+  Cell cycle phase, $\theta$, 1-dimensional circular varibale  
+**Output**  
+  Gene expression recontructed using Fourier series, $G$-dimensional vector  
 
 
 ### Dependencies
