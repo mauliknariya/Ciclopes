@@ -2,13 +2,9 @@
 
 **Ciclopes** is a *biology-informed* deep learning tool for inferring **cell cycle phase** from **single-cell resolution data**, including both **scRNA-seq** and **spatial transcriptomics** datasets.
 
----
-
 ## Overview
 
 Ciclopes combines prior biological knowledge of cell cycle marker genes with a deep generative model that captures the **oscillatory dynamics** of gene expression during the cell cycle. It provides smooth, interpretable, and continuous representations of cell cycle progression, beyond discrete phase assignments.
-
----
 
 ## Key Features
 
@@ -25,8 +21,6 @@ Ciclopes combines prior biological knowledge of cell cycle marker genes with a d
 
 - **Interpretable circular latent space**  
   The inferred latent variable corresponds to the progression through the cell cycle.
-
----
 
 ## Model Architecture
     Input: gene expression
