@@ -24,7 +24,7 @@ Ciclopes combines prior biological knowledge of cell cycle marker genes with a d
   Works seamlessly with both **single-cell RNA-seq** and **spatial transcriptomics** data.
 
 - **Interpretable circular latent space**  
-  The inferred latent variable corresponds to the cell cycle angle, allowing visualization and interpretation of progression through G1, S, G2, and M phases.
+  The inferred latent variable corresponds to the progression through the cell cycle.
 
 ---
 
